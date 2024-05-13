@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/exam/META"
+  "_build/install/default/lib/exam/dune-package"
+  "_build/install/default/lib/exam/opam"
+]
+bin: [
+  "_build/install/default/bin/exam"
+]

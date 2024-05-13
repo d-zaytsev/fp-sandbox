@@ -1,0 +1,6 @@
+(library
+ (name exam)
+ (libraries angstrom base lwt)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
