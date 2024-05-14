@@ -9,7 +9,8 @@ let get =
   let rec helper acc n = function
   | Nil -> -1
   | Cons (el, _) when acc == n -> el
-  | Cons(_, f) -> helper (acc + 1) n (f ()) in
+  | Cons(_, f) -> helper (acc + 1) n (f ()) (* просто вызываем функцию чтобы перейти к следующему элементу *)
+in
 helper 0;;  
 
 let rec fib = 
