@@ -1,4 +1,4 @@
-I used this project to prepare for my exam. It contains *things* from functional programming such as:
+🐘 I used this project to prepare for my exam. It contains *things* from functional programming such as:
 - Functions in CPS style
 - Using combinators *(-rectypes)* to define recursive functions
 - Lazy calculations
